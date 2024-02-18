@@ -1,0 +1,30 @@
+.square {
+    width: 250px;
+    height: 250px;
+    margin: 1rem 0 2rem 1rem;
+    background-color: blue;
+}
+
+#color .square {
+    -webkit-transition-property: background-color,border-radius;
+    -ms-transition-property: background-color,border-radius;
+    -o-transition-property: background-color,border-radius;
+    transition-property: background-color,border-radius;
+    -webkit-transition-duration: 5s;
+    -ms-transition-duration: 5s;
+    -o-transition-duration: 5s;
+    transition-duration: 5s;
+}
+
+/* #circle .square{
+    transition-property: border-radius;
+    transition-duration: 5s;
+    -webkit-transition-duration: 5s;
+    -ms-transition-duration: 5s;
+    -o-transition-duration: 5s;
+} */
+#color .square:hover {
+    background-color: green;
+    border-radius: 50%;
+
+}
